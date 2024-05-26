@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1em;
+  padding: 0;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: gray;
+  background-image: url(background-pizza.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img {
+  width: 100%;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.441);
+  border-radius: 70px;
+}
+header {
+  height: 200px;
+  background-image: url(logo-pizzeria.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+nav {
+  background-color: rgba(255, 0, 0, 0.354);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 20px;
+}
+.menu {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.menu:hover {
+  letter-spacing: 3px;
+  color: black;
+  background-color: whitesmoke;
+  transition: 0.5s;
+  border-radius: 30px;
+}
+
+main {
+  text-align: justify;
+  height: 500px;
+  position: relative;
+}
+main h1 {
+  margin-top: 10px;
+  margin-left: 50px;
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: cursive;
+  color: white;
+}
+main h2 {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(190, 249, 39);
+}
+main p {
+  margin: 10px;
+  color: white;
+  margin-bottom: 50px;
+  font-family: cursive;
+  font-size: 1.1em;
+  padding: 0;
+}
+#prenota {
+  text-decoration: none;
+  color: black;
+  margin-left: 37%;
+  border: solid 2px rgb(255, 255, 255);
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.1em;
+  background-color: yellow;
+}
+#prenota:hover {
+  background-color: red;
+  color: yellow;
+  border: solid 2px black;
+}
+
+@media screen and (max-width: 420px) {
+  .map {
+    margin-top: 280px;
+  }
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+}
+#footer {
+  padding-top: 20px;
+  color: whitesmoke;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+#mail {
+  text-decoration: none;
+  color: white;
+}
+#privacy {
+  text-decoration: none;
+  color: yellow;
+}
+#cookie {
+  text-decoration: none;
+  color: yellow;
+}
+#mail:hover {
+  color: rgba(0, 0, 0, 0.466);
+}
+#cookie:hover {
+  color: red;
+}
+#privacy:hover {
+  color: red;
+}

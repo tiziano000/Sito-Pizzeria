@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  padding: 0;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(184391886-2948152248785592-1472193843415432112-n_17052021053615.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  width: 100%;
+}
+
+
+main {
+  max-width: 500px;
+  margin: 25px auto;
+}
+
+main h1 {
+  margin-top: 3px;
+  text-align: center;
+  color: yellow;
+}
+
+#modulo {
+  border: solid 2px black;
+  border-radius: 7px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.671);
+  box-shadow: 8px 10px 69px 16px rgba(0, 0, 0, 0.67);
+}
+
+#modulo img {
+  width: 15%;
+  margin-left: 230px;
+  margin-bottom: 15px;
+}
+
+#modulo ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+#modulo ul li {
+  margin-top: 25px;
+}
+
+#modulo ul li label,
+input,
+span {
+  display: block;
+}
+
+#modulo input {
+  width: 100%;
+  font-size: 1em;
+  padding: 10px;
+  margin: 17px 0;
+  border-radius: 4px;
+}
+
+#modulo label {
+  font-weight: bold;
+  color: white;
+}
+
+#modulo .avviso {
+  color: red;
+  margin-top: 7px;
+  margin-bottom: 17px;
+  line-height: 20px;
+
+}
+
+#modulo .errore {
+  border: solid 1px red;
+  background-color: rgb(245, 210, 210);
+}
+
+#boxPrivacy input {
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+}
+
+#boxPrivacy label {
+  cursor: pointer;
+}
+
+#boxPrivacy label:hover {
+  color: rgb(141, 130, 130);
+}
+
+
+
+#bottone button {
+  width: 100%;
+  padding: 8px;
+  font-size: 1em;
+  background-color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#bottone button:hover {
+  background-color: rgb(149, 149, 14);
+}
+
+#modulo input:focus {
+  outline-color: rgb(126, 126, 190);
+}

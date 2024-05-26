@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="manual">
+    <meta name="robots" content="index,follow, noarchive">
+    <meta name="copyright" content="all rights reserve">
+    <meta name="description" content="descrizione pagina">
+    <meta name="keywords" content="parole chiave">
+    <link rel="stylesheet" href="Form.pizzeria.css">
+    <script src="form.pizzeria.js" defer></script>
+    <title>Pizzeria da Luigi</title>
+</head>
+
+<body>
+    <main class="clearfix ">
+        <div id="modulo">
+        
+            <h1>CONTATTA PIZZERIA DA LUIGI</h1>
+            <form action="https://google.com" method="post" id="registrazione">
+                <ul>
+                    <li>
+                        <label for="nome">Il tuo nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Nome e Cognome" class="obbligatorio"
+                            autocomplete="on">
+                        <span class="avviso"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="email">La tua email</label>
+                        <input type="text" id="email" name="email" placeholder="La tua email" class="obbligatorio"
+                            autocomplete="on">
+                        <span class="avviso"></span>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <label for="telefono">Il tuo numero di cellulare</label>
+                        <input type="text" id="telefono" name="telefono" placeholder="Il tuo telefono"
+                            class="obbligatorio" autocomplete="on">
+                        <span class="avviso"></span>
+                    </li>
+                </ul>
+
+                <div id="boxPrivacy">
+                    <input type="checkbox" name="privacy" id="privacy">
+                    <label for="privacy">Dichiaro di aver preso visione dell'informativa ai sensi del Decreto
+                        Legislativo 196 / 2003 . Autorizzo e accetto il Trattamento dei miei dati perssonali</label>
+                    <span class="avviso"></span>
+                </div>
+                <div id="bottone">
+                    <button>Invia la tua richiesta</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
